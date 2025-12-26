@@ -37,7 +37,7 @@ const Card: React.FC<CardProps> = ({
             {detail?.location} (Work from office)
           </p>
           <p className="text-base mt-5 break-words break-all">
-            {detail.remoteType} (9.00 am - 5.00 pm IST)
+            {detail.remoteType} (9.00 am - 6.00 pm IST)
           </p>
           <p className="text-base mt-1 break-words break-all">
             {`Experience (${detail.minExperience} - ${detail.maxExperience} years)`}
