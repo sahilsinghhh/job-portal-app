@@ -34,7 +34,7 @@ const Card: React.FC<CardProps> = ({
           <p
             className={`text-base mb-3 mt-1 text-primary-grey break-words break-all`}
           >
-            {detail?.location} (Work from office)
+            {detail?.location} (In-office)
           </p>
           <p className="text-base mt-5 break-words break-all">
             {detail.remoteType} (9.00 am - 6.00 pm IST)
