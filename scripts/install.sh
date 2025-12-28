@@ -1,3 +1,7 @@
 #!/bin/bash
-cd /home/ubuntu/app
+set -e
+
+cd /home/ubuntu/job-portal-app
+
 npm install
+npm run build

@@ -4,12 +4,15 @@ os: linux
 files:
   - source: /
     destination: /home/ubuntu/job-portal-app
-    overwrite: yes
+    overwrite: true
 
 hooks:
   AfterInstall:
     - location: scripts/install.sh
+      timeout: 300
       runas: ubuntu
+
   ApplicationStart:
     - location: scripts/start.sh
+      timeout: 300
       runas: ubuntu
